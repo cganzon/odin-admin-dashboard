@@ -13,8 +13,37 @@ body {
 }
 
 .header {
-    background-color: green;
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0 3rem;
+}
+
+.header-top-left, 
+.header-top-right, 
+.header-bottom-left, 
+.header-bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-left {
+    gap: 1rem;
+}
+
+.header-top-left input {
+    width: 70%;
+}
+
+.header-top-right {
+    justify-self: center;
+    gap: 2rem;
+}
+
+.header-bottom-right {
+    justify-self: center;
+    gap: 2rem;
 }
 
 .sidebar {

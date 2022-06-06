@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *, 
 *::before, 
 *::after {
@@ -7,6 +9,7 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template: 1fr 4fr / 1fr 5fr;
     min-height: 100vh;
@@ -20,6 +23,11 @@ button {
     padding: 0.6rem 2rem;
     border-radius: 20px;
     font-size: 1rem;
+}
+
+button,
+input {
+    font-family: inherit;
 }
 
 .header {

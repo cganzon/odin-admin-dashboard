@@ -66,10 +66,6 @@ input {
     font-weight: 700;
 }
 
-.header-bottom-left-wrapper p:first-child {
-    font-size: 1.1rem;
-}
-
 .header-bottom-left-wrapper p:last-child {
     font-size: 1.7rem;
 }

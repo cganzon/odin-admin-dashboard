@@ -12,12 +12,22 @@ body {
     min-height: 100vh;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #1992D4;
+    color: #fff;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
 .header {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    padding: 0 3rem;
+    padding: 1rem 3rem;
 }
 
 .header-top-left, 
@@ -33,12 +43,37 @@ body {
 }
 
 .header-top-left input {
-    width: 70%;
+    width: 85%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #e2e8f0;
+}
+
+.header-bottom-left {
+    gap: 1rem;
+}
+
+.header-bottom-left-wrapper p {
+    font-weight: 700;
+}
+
+.header-bottom-left-wrapper p:first-child {
+    font-size: 1.1rem;
+}
+
+.header-bottom-left-wrapper p:last-child {
+    font-size: 1.7rem;
 }
 
 .header-top-right {
     justify-self: center;
     gap: 2rem;
+}
+
+.header-top-right p {
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .header-bottom-right {

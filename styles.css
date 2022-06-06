@@ -87,6 +87,15 @@ input {
     font-size: 1.3rem;
 }
 
+.bell {
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.bell:hover {
+    transform: scale(1.1);
+}
+
 .header-bottom-right {
     justify-self: center;
     gap: 2rem;

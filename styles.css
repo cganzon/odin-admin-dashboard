@@ -36,6 +36,10 @@ input {
     font-family: inherit;
 }
 
+svg {
+    cursor: pointer;
+}
+
 .header {
     grid-column: 2/3;
     display: grid;

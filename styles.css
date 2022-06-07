@@ -153,4 +153,41 @@ input {
 
 .main-content {
     background-color: #e2e8f0;
+    padding: 2rem 1.2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.your-projects {
+    grid-column: 1/2;
+}
+
+.your-projects h2 {
+    margin-bottom: 1rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-left: 10px solid #F0B429;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
+}
+
+.card-icons {
+    align-self: end;
+    justify-content: end;
+    display: flex;
+    gap: 1.5rem;
 }

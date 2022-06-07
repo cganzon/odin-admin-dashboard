@@ -191,3 +191,15 @@ input {
     display: flex;
     gap: 1.5rem;
 }
+
+.card-icons a:last-child img {
+    transform: rotate(-90deg);
+}
+
+.card-icons a {
+    transition: transform 0.1s;
+}
+
+.card-icons a:hover {
+    transform: scale(1.1);
+}

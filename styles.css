@@ -90,6 +90,10 @@ input {
     gap: 1rem;
 }
 
+.header-bottom-left img {
+    width: 80px;
+}
+
 .header-bottom-left-wrapper p {
     font-weight: 700;
 }
@@ -101,6 +105,10 @@ input {
 .header-top-right {
     justify-self: center;
     gap: 2rem;
+}
+
+.header-top-right > img {
+    width: 50px;
 }
 
 .header-top-right p {

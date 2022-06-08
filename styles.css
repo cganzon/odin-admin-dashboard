@@ -215,3 +215,40 @@ input {
 .card-icons a:hover {
     transform: scale(1.15);
 }
+
+.updates {
+    grid-column: 2/3;
+    margin-left: 1.2rem;
+}
+
+.announcements {
+    margin-bottom: 2rem;
+}
+
+.announcements h2,
+.trending h2 {
+    margin-bottom: 1rem;
+}
+
+.announcements-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.2rem 2rem;
+}
+
+.announcements-card .announcement:nth-child(1),
+.announcements-card .announcement:nth-child(2) {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.announcement {
+    padding: 1rem 0;
+}
+
+.announcement h3 {
+    font-size: 1rem;
+}
+
+.announcement p {
+    font-size: 0.9rem;
+}

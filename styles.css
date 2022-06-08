@@ -234,6 +234,8 @@ input {
     background-color: #fff;
     border-radius: 10px;
     padding: 1.2rem 2rem;
+    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
 }
 
 .announcements-card .announcement:nth-child(1),

@@ -57,6 +57,13 @@ input {
     font-family: inherit;
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
+}
+
 .header {
     grid-column: 2/3;
     display: grid;
@@ -180,39 +187,35 @@ input {
     gap: 1.5rem;
 }
 
-.card {
+.project-card {
     height: 250px;
-    background-color: #fff;
-    border-radius: 10px;
     border-left: 10px solid #F0B429;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
-    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
 }
 
-.card p {
+.project-card p {
     margin-bottom: 1rem;
 }
 
-.card-icons {
+.project-card-icons {
     align-self: end;
     justify-content: end;
     display: flex;
     gap: 1.5rem;
 }
 
-.card-icons a:last-child img {
+.project-card-icons a:last-child img {
     transform: rotate(-90deg);
 }
 
-.card-icons a {
+.project-card-icons a {
     transition: transform 0.1s;
 }
 
-.card-icons a:hover {
+.project-card-icons a:hover {
     transform: scale(1.15);
 }
 
@@ -231,11 +234,7 @@ input {
 }
 
 .announcements-card {
-    background-color: #fff;
-    border-radius: 10px;
     padding: 1.2rem 2rem;
-    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
-    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
 }
 
 .announcements-card .announcement:nth-child(1),
@@ -256,11 +255,7 @@ input {
 }
 
 .trending-card {
-    background-color: #fff;
-    border-radius: 10px;
     padding: 0.7rem 1rem;
-    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2); 
-    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.2);
 }
 
 .user {

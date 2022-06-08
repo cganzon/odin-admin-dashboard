@@ -269,6 +269,11 @@ input {
     width: 50px;
 }
 
-.user p:first-child {
+.user p:first-child a {
     font-weight: 700;
+    font-size: 1rem;
+}
+
+.user p:first-child a:hover {
+    text-decoration: underline;
 }
